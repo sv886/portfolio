@@ -1,4 +1,9 @@
 /* ------------------ BASE STYLES ------------------ */
+.gi-2x{font-size: 2em;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -13,10 +18,10 @@ body {
   line-height: 1.6;
 }
 body.fullscreen-image-background {
-  background-image: url('../img/sliders/slider1.jpg?1394417052');
+  background-image: url('../img/sliders/slider4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top-left;
 }
 @media screen and (min-width: 1025px) {
   body.fullscreen-image-background {
@@ -382,11 +387,11 @@ a:hover, a:focus {
 	Supersized - Fullscreen Slideshow jQuery Plugin
 	Version : 3.2.7
 	Site	: www.buildinternet.com/project/supersized
-	
+
 	Author	: Sam Dunn
 	Company : One Mighty Roar (www.onemightyroar.com)
 	License : MIT License / GPL License
-	
+
 */
 * {
   margin: 0;
@@ -5609,7 +5614,7 @@ img.mfp-img {
 }
 /* ------------------ WORKS ------------------ */
 /* ----------------------------- */
-/* RECOMMENDED ISOTOPE STYLES 
+/* RECOMMENDED ISOTOPE STYLES
 /* Has been ported into SASS
 /* ---------------------------- */
 /* Isotope Filtering */
