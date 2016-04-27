@@ -158,11 +158,11 @@ body #jpreBar {
   border-radius: 0;
 }
 .navbar.navbar-light {
-  background-color: #f7f7f7;
+  background-color: black;
   border-bottom: 1px solid #eee;
 }
 .navbar.navbar-light .navbar-nav.nav-text-light > li > a {
-  color: #646464;
+  color: #FFFFFF;
 }
 @media screen and (max-width: 767px) {
   .navbar.navbar-light .navbar-nav.nav-text-light > li > a {
@@ -179,10 +179,10 @@ body #jpreBar {
   }
 }
 .navbar.navbar-light .navbar-nav.nav-text-light > li > a:hover {
-  border-bottom-color: #646464;
+  border-bottom-color: #FFFFFF;
 }
 .navbar.navbar-light .navbar-nav.nav-text-light > li.active > a {
-  border-bottom-color: #646464;
+  border-bottom-color: #FFFFFF;
 }
 
 .navbar-toggle {
@@ -319,11 +319,11 @@ a:hover, a:focus {
 }
 .section-heading h2 {
   font-size: 3em;
-  color: #ffae3f;
+  color: #ffffff;
 }
 .section-heading p {
   font-size: 1.5em;
-  color: #c2c2c2;
+  color: #FFFFFF;
 }
 .section-heading hr {
   display: inline-block;
@@ -336,7 +336,7 @@ a:hover, a:focus {
 }
 
 .section-content h3 {
-  color: #c2c2c2;
+  color: #FFFFFF;
 }
 .section-content .sub-section {
   margin-top: 30px;
@@ -4322,6 +4322,42 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   height: auto;
 }
 
+.fa-dribbble {
+  color: #D35400;
+}
+
+.fa-align-justify {
+  color: #3498DB;
+}
+
+.fa-diamond {
+  color: #C0392B;
+}
+
+.fa-question {
+  color: #F1C40F;
+}
+
+.fa-cogs {
+  color: #7F8C8D;
+}
+
+.fa-linkedin {
+  color: #0077B5;
+}
+
+.fa-github {
+  color: #333333;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.fa-medium {
+  color: #32FC8D;
+}
+
 .looper:focus {
   outline: 0;
 }
@@ -5438,6 +5474,28 @@ img.mfp-img {
 .about {
   position: relative;
   text-align: center;
+  background-color: black;
+  color: #FFFFFF;
+}
+
+.glyphicon-console {
+  color: #00FB0E;
+}
+
+.glyphicon-oil {
+  color: #7F8C8D;
+}
+
+.glyphicon-globe {
+  color: #2980B9;
+}
+
+.glyphicon-education {
+  color: #CF5300;
+}
+
+.about h1 {
+  color: #FFFFFF;
 }
 
 /* --------------------- */
@@ -5662,6 +5720,7 @@ img.mfp-img {
 /* --------------------- */
 #works {
   padding-bottom: 0;
+  background-color: black;
 }
 
 .work-item-filters {
@@ -5947,14 +6006,34 @@ img.mfp-img {
 }
 
 /* ------------------ CONTACT ------------------ */
+#contact {
+  background-color: black;
+}
 /* --------------------- */
 /* CONTACT INFO
 /* --------------------- */
+.fa.fa-envelope.pull-left {
+  color: #FFFFFF;
+}
+
+.fa.fa-map-marker.pull-left {
+  color: #F75449;
+}
+
+.fa.fa-phone.pull-left {
+  color: #7F8C8D;
+}
+
 .contact-info li {
   padding-bottom: 30px;
 }
-.contact-info h3, .contact-info i {
-  color: #646464;
+
+.contact-info h3 {
+  color: #00FB0E;
+}
+
+.contact-info h3, a {
+  color: #00FB0E;
 }
 .contact-info h3, .contact-info p {
   padding-left: 52px;
@@ -6095,6 +6174,8 @@ img.mfp-img {
 #footer {
   padding-top: 20px;
   padding-bottom: 10px;
+  background-color: black;
+  color: #FFFFFF;
 }
 
 .back-to-top {
